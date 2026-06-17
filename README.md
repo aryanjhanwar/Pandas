@@ -1,1 +1,237 @@
-# =ƒÉ+ Complete Pandas LearningA structured and practical journey to mastering **Pandas** GÇö from basics to advanced concepts like GroupBy, MultiIndexing, String Operations, DateTime handling, and Data Merging.This repository contains **Jupyter Notebooks (`.ipynb`)** and **practice datasets** to help learn Pandas through hands-on coding.---## =ƒôî What You'll LearnBy completing this repository, you will understand:- G£à Pandas Series- G£à Pandas DataFrames- G£à DataFrame Methods & Operations- G£à GroupBy Operations- G£à Merging & Concatenation- G£à MultiIndex Objects- G£à String Operations in Pandas- G£à Date & Time Handling in Pandas---## =ƒôé Repository Structure```bashComplete-Pandas/GöéGö£GöÇGöÇ 01-pandas-series-basics.ipynbGö£GöÇGöÇ 02-pandas-dataframes-basics.ipynbGö£GöÇGöÇ 03-dataframe-methods.ipynbGö£GöÇGöÇ 04-pandas-groupby-objects.ipynbGö£GöÇGöÇ 05-merging-concat-pandas.ipynbGö£GöÇGöÇ 06-multiindex-objects.ipynbGö£GöÇGöÇ 07-pandas-strings.ipynbGö£GöÇGöÇ 08-date-and-time-in-pandas.ipynbGöéGö£GöÇGöÇ 01-pandas-series-basics-datasets/Gö£GöÇGöÇ 02-pandas-dataframes-basics-datasets/Gö£GöÇGöÇ 03-dataframe-methods-datasets/Gö£GöÇGöÇ 04-pandas-groupby-datasets/Gö£GöÇGöÇ 05-merging-concat-datasets/Gö£GöÇGöÇ 06-multiindex-objects-datasets/GööGöÇGöÇ 07-vector_strings-date_time-datasets/```---## =ƒôÜ Course Content### 1. Pandas Series BasicsLearn:- Creating Series- Indexing & Selection- Mathematical Operations- Handling Missing Values### 2. DataFrames BasicsLearn:- Creating DataFrames- Row & Column Selection- Filtering Data- Reading CSV Files### 3. DataFrame MethodsLearn:- Sorting- Descriptive Statistics- Missing Data Handling- Apply Functions- Value Counts### 4. GroupBy OperationsLearn:- Splitting Data into Groups- Aggregation Functions- Multi-Level Grouping- Real-world Data Analysis### 5. Merging & ConcatenationLearn:- `concat()`- `merge()`- `join()`- Combining Multiple Datasets### 6. MultiIndex ObjectsLearn:- Hierarchical Indexing- Multi-level Rows & Columns- Accessing Nested Data### 7. String Operations in PandasLearn:- Vectorized String Methods- Text Cleaning- Regex Basics- Data Formatting### 8. Date & Time in PandasLearn:- Datetime Objects- Timestamp Handling- Date Filtering- Time Series Basics---## =ƒ¢án+Å Tech Stack- **Python**- **Pandas**- **Jupyter Notebook**- **NumPy**---## =ƒÜÇ Getting Started### 1. Clone the Repository```bashgit clone https://github.com/your-username/complete-pandas.git```### 2. Install Dependencies```bashpip install pandas numpy jupyter```### 3. Start Jupyter Notebook```bashjupyter notebook```---## =ƒÄ» Goal of This RepositoryThe main purpose of this repository is to build a **strong practical understanding of Pandas** through structured notebooks and datasets.Instead of only learning theory, this repo focuses on **hands-on learning and experimentation**.---## =ƒôê Learning OutcomeAfter completing this repository, you should be able to:- Analyze datasets efficiently- Clean and transform data- Work with structured tabular data- Perform data aggregation and analysis- Prepare data for Data Science & Machine Learning---## =ƒñ¥ ContributionsSuggestions and improvements are welcome.If you find something useful, feel free to G¡É this repository.---## =ƒô£ LicenseThis project is for **learning purposes**.
+# ğŸ¼ Pandas Learning
+
+A structured and practical journey to mastering **Pandas** â€” from fundamentals to advanced concepts like **GroupBy, MultiIndexing, String Operations, DateTime handling, and Data Merging**.
+
+This repository contains **organized Python files (`.py`)** and **practice datasets** to learn Pandas through hands-on coding and experimentation.
+
+The goal of this repository is to build a **strong practical understanding of data manipulation and analysis using Pandas**.
+
+---
+
+## ğŸš€ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Jupyter (for experimentation)
+
+---
+
+## ğŸ“Œ What You'll Learn
+
+By completing this repository, you will understand:
+
+* âœ… Pandas Series
+* âœ… Pandas DataFrames
+* âœ… DataFrame Methods & Operations
+* âœ… GroupBy Operations
+* âœ… Merging & Concatenation
+* âœ… MultiIndex Objects
+* âœ… String Operations in Pandas
+* âœ… Date & Time Handling in Pandas
+
+---
+
+## ğŸ“‚ Repository Structure
+
+```plaintext
+Complete-Pandas/
+â”‚
+â”œâ”€â”€ 01-pandas-series-basics/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 02-pandas-dataframes-basics/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 03-dataframe-methods/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 04-pandas-groupby-objects/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 05-merging-concat-pandas/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 06-multiindex-objects/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â”œâ”€â”€ 07-pandas-strings/
+â”‚   â”œâ”€â”€ *.py
+â”‚   â””â”€â”€ datasets/
+â”‚
+â””â”€â”€ 08-date-and-time-in-pandas/
+    â”œâ”€â”€ *.py
+    â””â”€â”€ datasets/
+```
+
+---
+
+## ğŸ“š Course Content
+
+### 1ï¸âƒ£ Pandas Series Basics
+
+Learn:
+
+* Creating Series
+* Indexing & Selection
+* Mathematical Operations
+* Missing Values Handling
+
+---
+
+### 2ï¸âƒ£ DataFrames Basics
+
+Learn:
+
+* Creating DataFrames
+* Row & Column Selection
+* Filtering Data
+* Reading CSV Files
+
+---
+
+### 3ï¸âƒ£ DataFrame Methods
+
+Learn:
+
+* Sorting Data
+* Descriptive Statistics
+* Handling Missing Data
+* Applying Functions
+* Value Counts
+
+---
+
+### 4ï¸âƒ£ GroupBy Operations
+
+Learn:
+
+* Splitting Data into Groups
+* Aggregation Functions
+* Multi-Level Grouping
+* Real-world Data Analysis
+
+---
+
+### 5ï¸âƒ£ Merging & Concatenation
+
+Learn:
+
+* `concat()`
+* `merge()`
+* `join()`
+* Combining Multiple Datasets
+
+---
+
+### 6ï¸âƒ£ MultiIndex Objects
+
+Learn:
+
+* Hierarchical Indexing
+* Multi-level Rows & Columns
+* Accessing Nested Data
+
+---
+
+### 7ï¸âƒ£ String Operations in Pandas
+
+Learn:
+
+* Vectorized String Methods
+* Text Cleaning
+* Regular Expressions (Regex) Basics
+* Data Formatting
+
+---
+
+### 8ï¸âƒ£ Date & Time in Pandas
+
+Learn:
+
+* Datetime Objects
+* Timestamp Handling
+* Date Filtering
+* Time Series Basics
+
+---
+
+## ğŸ› ï¸ Tech Stack
+
+* **Python**
+* **Pandas**
+* **NumPy**
+
+---
+
+## ğŸš€ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/complete-pandas.git
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install pandas numpy
+```
+
+### 3. Run Python Files
+
+```bash
+python file_name.py
+```
+
+Example:
+
+```bash
+python basics.py
+```
+
+---
+
+## ğŸ¯ Goal of This Repository
+
+The main purpose of this repository is to develop a **strong practical understanding of Pandas** through structured learning and hands-on coding.
+
+Instead of only learning theory, this repository focuses on **real practice, experimentation, and implementation**.
+
+---
+
+## ğŸ“ˆ Learning Outcomes
+
+After completing this repository, you should be able to:
+
+âœ… Analyze datasets efficiently
+âœ… Clean and transform messy data
+âœ… Work with structured tabular data
+âœ… Perform aggregation and analysis using GroupBy
+âœ… Merge and combine datasets effectively
+âœ… Handle strings and date-time data
+âœ… Prepare datasets for **Data Science & Machine Learning**
+
+---
+
+## ğŸ¤ Contributions
+
+This repository is part of my learning journey. Suggestions, improvements, and feedback are always welcome.
+
+---
+
+## â­ Support
+
+If you found this repository useful, feel free to **star the repository**.
+
+---
+
+## ğŸ“œ License
+
+This project is created for **learning purposes**.
